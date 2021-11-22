@@ -35,7 +35,7 @@ def weather(place):
     
     #""".format(title, date_time, current_temperature, description)
 
-
-weather('Rzeszów')
+place = input('Podaj miasto: ')
+weather(place)
 
 
